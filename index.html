@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <title>Survey From</title>
+</head>
+<body>
+    <div id="background">
+
+    </div>
+    <header>
+       <h1 id="title">Activity Tracking Survey Form</h1>
+       <p id="description">
+          This is a survey to analyze sport habits on campers
+       </p>
+    </header>
+    <main>
+        <form id="survey-form">
+            <div class="input-div">
+                <label  id="name-label" for="name">Name:</label>
+            <input required type="text" id="name" placeholder="Enter your name"></div> 
+            <div class="input-div"><label for="email" id="email-label">Email:</label>
+            <input required type="email" id="email" placeholder="Enter your email"></div> 
+            <div class="input-div"><label for="number" id="number-label" >Age:</label>
+            <input required type="number" id="number" min="13" max="99" placeholder="Enter your age"></div> 
+            <div class="input-div">
+                <label for="dropdown">How much active do you consider you are?</label>
+            <select name="" id="dropdown">
+                <option value="not-active">Not active</option>
+                <option value="bit-active">A bit active</option>
+                <option value="active">Very active</option>
+            </select></div>
+
+            <div class="input-div">
+               <p>How many times do you exercise a week?</p>
+               <label for="">
+               
+               <input type="radio" name="frequency" class="radio" id="" value="never"> Never</label><label for="">
+                   
+               <input type="radio" name="frequency"  value="2-3" class="radio" id="">2-3
+            </label>
+               <label for="">
+                   
+               <input type="radio" name="frequency"  value="4+" class="radio" id="">4+
+            </label>
+            </div>
+
+            <div class="input-div">
+                <p> What sports do you practice?</p>
+                <label for="">
+                <input class="radio"  type="checkbox" name="sports" id="soccer" value="soccer">
+                Soccer
+            </label>
+
+            <label for="">
+                <input value="football" class="radio" type="checkbox" name="sports" id="football">
+                Football 
+            </label>
+            <label for="">
+                <input value="Basketball" class="radio" type="checkbox" name="sports" id="Basketball">
+                Basketball
+            </label>
+            <label for="">
+                <input value="Baseball" class="radio" type="checkbox" name="sports" id="Baseball">
+                Baseball
+            </label>
+            <label for="">
+                <input value="Martial Arts" class="radio" type="checkbox" name="sports" id="Martial Arts">
+                Martial Arts
+            </label>
+            </div>
+    <div class="input-div">
+        <p>Tell us a little more about what you do to exercise</p>
+
+        <textarea name="" id="" cols="30" rows="10"></textarea>
+    </div>
+ <div class="input-div">
+    <input type="submit" id="submit">
+</div>
+        </form>
+    </main>
+</body>
+</html>

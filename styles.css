@@ -1,0 +1,67 @@
+#background {
+    background-image: linear-gradient( 115deg, rgba(18, 99, 170, 0.8), rgba(100, 100, 100, 0.7) ), url(https://www.wallpapertip.com/wmimgs/103-1030483_benefits-of-playing-sports.jpg);
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    z-index: -1;
+   
+}
+*
+{
+    color: #fff;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 12vh;
+}
+
+input, select{
+    color: #000;
+    height: 4.4vh;
+  
+}
+
+form {
+    margin-top: 4vh;
+  background-color: rgba(58, 99, 200, 0.81) ;
+  padding: 20px;
+  width: 85%;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+}
+
+.input-div {
+    display: flex;
+    flex-direction: column;
+    padding: 0 7vh 3vh 7vh; 
+
+} 
+
+label {
+    display: flex;
+    align-items: center;
+    
+}
+.radio {
+    margin-right: 1.4vw;
+}
+
+textarea {
+    margin-top: 3vh;
+}
+
+#submit {
+    background-color: seagreen;
+    width: 20vw;
+    align-self: center;
+}
